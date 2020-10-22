@@ -1,5 +1,7 @@
 # Trabalho_de_CMA02
 
+Sistema de cadastro  de infromações de uma loja vitual de roupas.
+
 |Nome do campo|Tipo|Descrição|
 |-------------|----|---------|
 |Produto|Cadeia de caracteres|Tipo de roupa a ser escolhido pelo cliente(blusa,calça,etc)|
