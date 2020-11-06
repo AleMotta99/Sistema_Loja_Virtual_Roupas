@@ -1,6 +1,6 @@
 # Trabalho_de_CMA02
 
-Sistema de cadastro  de infromações de uma loja vitual de roupas.
+Sistema de cadastro  de infromações de uma loja vitual de roupa
 
 |Nome do campo|Tipo|Descrição|
 |-------------|----|---------|
