@@ -19,7 +19,7 @@ int main()
     while(verifica != 4){
 
         system("cls");
-        printf("\n\n ***************** BEM VINDO A GESTÃO DA LOJA *****************\n\n");
+        printf("\n\n ***************** BEM VINDO A GESTÃƒO DA LOJA *****************\n\n");
         printf("\n O que deseja fazer ?\n");
         printf("\n 1 - Cadastrar um produto\n");
         printf("\n 2 - Consultar produtos cadastrados\n");
@@ -35,48 +35,48 @@ int main()
 				for(i=0;Total_Produtos < a;i++){
 
 		            printf("\n\n Digite o tipo do produto: \n");
-		            printf("\n Opções : Blusa    Calça    Bermuda   Short    Vestido \n\n");
+		            printf("\n OpÃ§Ãµes : Blusa    CalÃ§a    Bermuda   Short    Vestido \n\n");
 		            gets(Tipo[Total_Produtos]);
 
 		            fflush(stdin);
-		            printf("\n Digite o gênero ao qual o produto se destina: \n");
+		            printf("\n Digite o gÃªnero ao qual o produto se destina: \n");
 		            printf("\n M - Masculino  F - Feminino\n\n");
 		            gets(Genero[Total_Produtos]);
 
 		            fflush(stdin);
-		            printf("\n Digite a quantidade de produtos disponíveis: \n\n");
+		            printf("\n Digite a quantidade de produtos disponÃ­veis: \n\n");
 		            scanf("%d",&Quantidade[Total_Produtos]);
 
 		            fflush(stdin);
 		            printf("\n Digite o tamanho do produto: \n");
-		            printf("\n Opções : G - Grande  M - Médio  P - Pequeno \n\n");
+		            printf("\n OpÃ§Ãµes : G - Grande  M - MÃ©dio  P - Pequeno \n\n");
 		            gets(Tamanho[Total_Produtos]);
 
 		            fflush(stdin);
-		            printf("\n Digite o preço de venda do produto: \n\n");
+		            printf("\n Digite o preÃ§o de venda do produto: \n\n");
 		            scanf("%f",&Preco[Total_Produtos]);
 
 		            fflush(stdin);
-		            printf("\n Digite o código do produto: \n\n");
+		            printf("\n Digite o cÃ³digo do produto: \n\n");
 		            scanf("%d",&CodigoPeca[Total_Produtos]);
 
 		            fflush(stdin);
-		            printf("\n Digite o custo de fabricação do produto: \n\n");
+		            printf("\n Digite o custo de fabricaÃ§Ã£o do produto: \n\n");
 		            scanf("%f",&PrecoFabricacao[Total_Produtos]);
 
 		            fflush(stdin);
 		            printf("\n Digite o tipo de tecido do produto: \n");
-		            printf("\n  Opções :  Algodão ou  Poliéster  \n\n");
+		            printf("\n  OpÃ§Ãµes :  AlgodÃ£o ou  PoliÃ©ster  \n\n");
 		            gets(Tecido[Total_Produtos]);
 
 		            fflush(stdin);
 		            printf("\n Digite a cor do produto: \n");
-		            printf("\n Opções : Amarelo   Vermelho   Rosa   Preto   Branco\n\n");
+		            printf("\n OpÃ§Ãµes : Amarelo   Vermelho   Rosa   Preto   Branco\n\n");
 		            gets(Cor[Total_Produtos]);
 
 		            fflush(stdin);
 		            printf("\n Digite a marca do produto: \n");
-		            printf("\n Opções : Gucci   Adidas   Nike \n\n");
+		            printf("\n OpÃ§Ãµes : Gucci   Adidas   Nike \n\n");
 		            gets(Marca[Total_Produtos]);
 
 		            Total_Produtos++;
@@ -84,17 +84,17 @@ int main()
 				break;
 			}
 			case 2:{
-				printf("\n\n>>>>>>>>>> TABELA DE INFROMAÇÕES DAS ROUPAS CADASTRADAS <<<<<<<<<<<<<< \n\n");
+				printf("\n\n>>>>>>>>>> TABELA DE INFROMAÃ‡Ã•ES DAS ROUPAS CADASTRADAS <<<<<<<<<<<<<< \n\n");
 
 		    	for(i=0;i<a;i++){
 
 					printf("\n TIPO - %s \n", Tipo[i]);
-					printf("\n GÊNERO - %s \n", Genero[i]);
+					printf("\n GÃŠNERO - %s \n", Genero[i]);
 					printf("\n QUANTIDADE - %d \n", Quantidade[i]);
 					printf("\n TAMANHO - %s \n", Tamanho[i]);
-					printf("\n PREÇO - R$%.2f \n", Preco[i]);
-					printf("\n CÓDIGO - %.2d \n", CodigoPeca[i]);
-					printf("\n PREÇO DE FABRICAÇÃO - R$%.2f \n", PrecoFabricacao[i]);
+					printf("\n PREÃ‡O - R$%.2f \n", Preco[i]);
+					printf("\n CÃ“DIGO - %.2d \n", CodigoPeca[i]);
+					printf("\n PREÃ‡O DE FABRICAÃ‡ÃƒO - R$%.2f \n", PrecoFabricacao[i]);
 					printf("\n TECIDO - %s \n", Tecido[i]);
 					printf("\n COR - %s \n", Cor[i]);
 					printf("\n MARCA - %s \n\n", Marca[i]);
@@ -105,28 +105,28 @@ int main()
 			}
 			case 3:{
 
-				printf("\n\n>>>>>>>>>> TABELA DE INFROMAÇÕES DAS ROUPAS CADASTRDAS <<<<<<<<<<<<<< \n\n");
+				printf("\n\n>>>>>>>>>> TABELA DE INFROMAÃ‡Ã•ES DAS ROUPAS CADASTRDAS <<<<<<<<<<<<<< \n\n");
 
 		    	for(i=0;i<a;i++){
 
 					printf("\n TIPO - %s \n", Tipo[i]);
-					printf("\n GÊNERO - %s \n", Genero[i]);
+					printf("\n GÃŠNERO - %s \n", Genero[i]);
 					printf("\n QUANTIDADE - %d \n", Quantidade[i]);
 					printf("\n TAMANHO - %s \n", Tamanho[i]);
-					printf("\n PREÇO - R$%.2f \n", Preco[i]);
-					printf("\n CÓDIGO - %.2d \n", CodigoPeca[i]);
-					printf("\n PREÇO DE FABRICAÇÃO - R$%.2f \n", PrecoFabricacao[i]);
+					printf("\n PREÃ‡O - R$%.2f \n", Preco[i]);
+					printf("\n CÃ“DIGO - %.2d \n", CodigoPeca[i]);
+					printf("\n PREÃ‡O DE FABRICAÃ‡ÃƒO - R$%.2f \n", PrecoFabricacao[i]);
 					printf("\n TECIDO - %s \n", Tecido[i]);
 					printf("\n COR - %s \n", Cor[i]);
 					printf("\n MARCA - %s \n\n", Marca[i]);
 					printf("\n");
 
 				int Opcao, Produto;
-				printf("\n\n Qual produto você gostaria de fazer alteração? \n ");
+				printf("\n\n Qual produto vocÃª gostaria de fazer alteraÃ§Ã£o? \n ");
 				scanf("%d", &Produto);
 
-				printf("\n Qual dado do produto você quer alterar?\n");
-				printf("\n Opções: 1-TIPO  2-GÊNERO  3-QUANTIDADE  4-TAMANHO  5-PREÇO  6-CÓDIGO  7-PREÇO DE FABRICAÇÃO  8-TECIDO 9-COR  10-MARCA\n");
+				printf("\n Qual dado do produto vocÃª quer alterar?\n");
+				printf("\n OpÃ§Ãµes: 1-TIPO  2-GÃŠNERO  3-QUANTIDADE  4-TAMANHO  5-PREÃ‡O  6-CÃ“DIGO  7-PREÃ‡O DE FABRICAÃ‡ÃƒO  8-TECIDO 9-COR  10-MARCA\n");
 				scanf("%d", &Opcao);
 
 				switch(Opcao)
@@ -147,7 +147,7 @@ int main()
 
                         fflush(stdin);
 						char Genero_Novo;
-						printf("\n Alterando Gênero:\n");
+						printf("\n Alterando GÃªnero:\n");
 						scanf("%c", &Genero_Novo);
 						Genero[Produto][5] = Genero_Novo;
 						break;
@@ -171,7 +171,7 @@ int main()
 					case 5:{
 
 						float Preco_Novo;
-						printf("\n Alterando Preço:\n");
+						printf("\n Alterando PreÃ§o:\n");
 						scanf("%f", &Preco_Novo);
 						Preco[Produto] = Preco_Novo;
 						break;
@@ -179,7 +179,7 @@ int main()
 					case 6:{
 
 						int Codigo_Novo;
-						printf("\n Alterando Código da Peça:\n");
+						printf("\n Alterando CÃ³digo da PeÃ§a:\n");
 						scanf("%d", &Codigo_Novo);
 						CodigoPeca[Produto] = Codigo_Novo;
 						break;
@@ -187,7 +187,7 @@ int main()
 					case 7:{
 
 						float Preco_Fabricacao_Novo;
-						printf("\n Alterando Preço de Fabricação:\n");
+						printf("\n Alterando PreÃ§o de FabricaÃ§Ã£o:\n");
 						scanf("%f", &Preco_Fabricacao_Novo);
 						PrecoFabricacao[Produto] = Preco_Fabricacao_Novo;
 						break;
