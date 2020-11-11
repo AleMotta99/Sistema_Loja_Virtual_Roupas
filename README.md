@@ -2,8 +2,10 @@
 
 Sistema de cadastro  de informações de uma loja virtual de roupa
 
-O tema do trabalho consiste em um programa de loja virtual de roupas, onde será mostrado os dados sobre o produto(roupa) para que o usuário possa fazer a escolha do que deseja.
-O usuário deverá informar alguns dados seus e sobre o produto, para que o programa possa mostrar qual produto ele esta querendo.
+O tema do trabalho é sobre um programa de cadastro de roupas para uma loja virtual. O programa permite ao usuário realizar o cadastro das roupas e depois poder consultar e alterar os dados informados. 
+Primeiramente o usuário cadastra a roupa, informando os dados sobre ela. Em seguida ele pode consultar esses dados e,caso queira, pode alterar algum desses dados.  
+
+Abaixo esta uma tabela contendo o nome do campo, tipo e descrição das variáveis utilizadas no programa.
 
 |Nome do campo|Tipo|Descrição|
 |-------------|----|---------|
